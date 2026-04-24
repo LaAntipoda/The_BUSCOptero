@@ -17,15 +17,15 @@ From the genome to the tree, an easy going approach to use BUSCO sequences for p
 4. Script_04 - Concatenate files with the same BUSCO ID
 5. Script_05 - Align each BUSCO ID
 6. Script_06 - Concatenate all the alignments
-7. Script_07 - Call IQTree
+7. Script_07 - Call IQTree on the cluster
 
 ### Optional
 8. Script_08 - Plot BUSCO results
 
 ### Expected output
 
-Results
-|
+### Results
+```
 ├── BDD
 │   └── genomes
 │       └── */*.fasta
@@ -38,7 +38,7 @@ Results
 │   ├── *_align.fasta
 ├── iqtree
 │   ├── *_tree.contree
-
+```
 ### Additional info
 
 This proyect was executed in a potatoe connected with an aaa battery
