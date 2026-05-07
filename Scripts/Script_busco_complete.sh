@@ -1,6 +1,5 @@
 #!/bin/bash
 # Here we are subbmiting the job to a cluster with SLURM
-
 #SBATCH --job-name=iq3_genome
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
@@ -10,6 +9,9 @@
 #SBATCH --mail-user=your_mail.org
 #SBATCH --mail-type=END,FAIL
 #SBATCH --partition=long
+
+#stop if there is an error somewhere in the pipe
+set -euo pipefail
 
 # 
 /bin/bash Script_01.sh
