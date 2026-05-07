@@ -41,9 +41,10 @@ From the genome to the tree, an easy going approach to use BUSCO sequences for p
 ```
 ### Additional info
 
-This proyect was executed in a potatoe connected with an aaa battery
+Due the amount of information, this proyect was executed in a cluster. In this case the KewHPC:
 
-  - Personal Laptop
-  - Linux Mint 21.1
-  - CPU: Intel Core i3-1005G1 2 nucleous 4 threads
-  - RAM: 4GB
+  - CentOs 7.7
+  - 576 cores
+  - 7.6TB RAM
+
+We will request 200G of memory and 144h of computer time. This is an overkill, but ModelFinder can really consume rosurces and take an infinite +1 time to finish.
